@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: 241CC341SpringMSDemo01GatewayD
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: usuario
+          uri: 'http://localhost:9095'
+          predicates:
+            - Path=/api/usuario/**
+        - id: tipousuario
+          uri: 'http://localhost:9080'
+          predicates:
+            - Path=/api/tipo-usuario/**
+eureka:
+  client:
+    register-with-eureka: false

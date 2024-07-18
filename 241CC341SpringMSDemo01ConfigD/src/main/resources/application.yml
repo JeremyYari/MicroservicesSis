@@ -1,0 +1,14 @@
+#spring.application.name=241CC341SpringMSDemo01ConfigD
+server:
+  port: 8888
+
+spring:
+  application:
+    name: 241CC341SpringMSDemo01ConfigD
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/configurations

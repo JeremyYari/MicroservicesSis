@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: 241CC341SpringMSDemo01TipoUsuarioD
+  config:
+    import: optional:configserver:http://localhost:8888

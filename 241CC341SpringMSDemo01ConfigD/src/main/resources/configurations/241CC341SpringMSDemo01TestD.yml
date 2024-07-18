@@ -1,0 +1,23 @@
+server:
+  port: 9075
+
+spring:
+  application:
+    name: 241CC341SpringMSDemo01TestD
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://viaduct.proxy.rlwy.net/railway
+    username: root
+    password: FEdHCiwCCfSZbVwTOabWtutVnQRglrRC
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database: mariadb
+    database-platform: org.hibernate.dialect.MariaDBDialect
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka

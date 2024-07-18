@@ -1,0 +1,23 @@
+server:
+  port: 9080
+
+spring:
+  application:
+    name: 241CC341SpringMSDemo01TipoUsuarioD
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://viaduct.proxy.rlwy.net/railway
+    username: root
+    password: FEdHCiwCCfSZbVwTOabWtutVnQRglrRC
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka

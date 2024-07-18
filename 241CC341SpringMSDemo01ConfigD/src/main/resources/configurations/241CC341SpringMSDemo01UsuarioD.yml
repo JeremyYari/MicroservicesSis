@@ -1,0 +1,23 @@
+server:
+  port: 9095
+
+spring:
+  application:
+    name: 241CC341SpringMSDemo01UsuarioD
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://jeremy:RWxpWIwEz7Dl76dXBSkSWymmbqGCIxH0@dpg-cqbibfggph6c73c0t1vg-a.oregon-postgres.render.com/sisvitasavdb
+    username: jeremy
+    password: RWxpWIwEz7Dl76dXBSkSWymmbqGCIxH0
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka

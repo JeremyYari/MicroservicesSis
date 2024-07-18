@@ -1,0 +1,23 @@
+server:
+  port: 9100
+
+spring:
+  application:
+    name: 241CC341SpringMSDemo01ResultadoTestD
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@//hostname:port/service_name
+    username: tu_usuario
+    password: tu_contraseña
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database: oracle
+    database-platform: org.hibernate.dialect.Oracle12cDialect
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka

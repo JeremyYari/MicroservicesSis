@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="241CC341SpringMSDemo01ConfigD" />
+        <module name="241CC341SpringMSDemo01UsuarioD" />
+        <module name="241CC341SpringMSDemo01TipoUsuarioD" />
+        <module name="241CC341SpringMSDemo01TipoUsuario" />
+        <module name="241CC341SpringMSDemo01TipoUsuario (1) (uni.isw.ms.Test)" />
+        <module name="241CC341SpringMSDemo01GatewayD" />
+        <module name="241CC341SpringMSDemo01EurekaD" />
+        <module name="241CC341SpringMSDemo01ResultadoTestD" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="241CC341SpringMSDemo01CourseD" target="17" />
+      <module name="241CC341SpringMSDemo01StudentD" target="19" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="241CC341SpringMSDemo01ConfigD" options="-parameters" />
+      <module name="241CC341SpringMSDemo01CourseD" options="-parameters" />
+      <module name="241CC341SpringMSDemo01EurekaD" options="-parameters" />
+      <module name="241CC341SpringMSDemo01GatewayD" options="-parameters" />
+      <module name="241CC341SpringMSDemo01ResultadoTestD" options="-parameters" />
+      <module name="241CC341SpringMSDemo01StudentD" options="-parameters" />
+      <module name="241CC341SpringMSDemo01TipoUsuario" options="-parameters" />
+      <module name="241CC341SpringMSDemo01TipoUsuario (1) (uni.isw.ms.Test)" options="-parameters" />
+      <module name="241CC341SpringMSDemo01TipoUsuarioD" options="-parameters" />
+      <module name="241CC341SpringMSDemo01UsuarioD" options="-parameters" />
+    </option>
+  </component>
+</project>

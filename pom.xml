@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.3.0</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
+  
+  <groupId>uni.isw</groupId>
+  <artifactId>241CC341SpringMSDemo01ContainerD</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>241CC341SpringMSDemo01ContainerD</name>  
+  <packaging>pom</packaging>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>19</maven.compiler.source>
+    <maven.compiler.target>19</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+         <version>1.18.32</version>
+        <scope>provided</scope>
+    </dependency>
+
+  </dependencies>
+
+  <build>   
+    <pluginManagement>  
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>3.2.5</version>
+            </plugin>
+        </plugins>
+    </pluginManagement>  
+  </build>
+    <modules>
+        <module>241CC341SpringMSDemo01GatewayD</module>
+        <module>241CC341SpringMSDemo01EurekaD</module>
+        <module>241CC341SpringMSDemo01ConfigD</module>
+        <module>241CC341SpringMSDemo01UsuarioD</module>
+        <module>241CC341SpringMSDemo01TipoUsuarioD</module>
+        <module>241CC341SpringMSDemo01ResultadoTestD</module>
+        <module>241CC341SpringMSDemo01TestD</module>
+    </modules>
+</project>
